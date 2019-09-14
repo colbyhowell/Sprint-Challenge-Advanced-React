@@ -6,14 +6,18 @@ function DisplayData(props) {
   return (
     <div className="data-container">
       <div className="player-card">
-        <div className="player-names">Player Name: {props.users.name}</div>
+        <div className="player-names">
+          <u>Player Name:</u> {props.users.name}
+        </div>
         <div className="player-country">
-          Player Country: {props.users.country}
+          <u>Player Country:</u> {props.users.country}
         </div>
         <div className="player-searches">
-          Player Searches: {props.users.searches}
+          <u>Player Searches:</u> {props.users.searches}
         </div>
-        <div className="player-id">Player ID: {props.users.id}</div>
+        <div className="player-id">
+          <u>Player ID:</u> {props.users.id}
+        </div>
       </div>
     </div>
   );
