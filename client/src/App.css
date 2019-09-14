@@ -31,3 +31,76 @@
     transform: rotate(360deg);
   }
 }
+
+.display-container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.data-container {
+  width: 50%;
+}
+
+.player-card {
+  width: 500px;
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 10px;
+  border: black solid 3px;
+}
+
+.nav-bar {
+  margin-bottom: 20px;
+}
+
+.nav-bar button {
+  width: 400px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  border-radius: 40px;
+  border: black solid 1px;
+}
+
+.dark-mode .nav-bar button {
+  width: 400px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 40px;
+  border: black solid 1px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+.dark-mode .data-container {
+  background-color: grey;
+  color: white;
+}
+
+.dark-mode .player-names {
+  background-color: grey;
+  color: white;
+}
+.dark-mode .player-country {
+  background-color: grey;
+  color: white;
+}
+.dark-mode .player-searches {
+  background-color: grey;
+  color: white;
+}
+.dark-mode .player-id {
+  background-color: grey;
+  color: white;
+}
