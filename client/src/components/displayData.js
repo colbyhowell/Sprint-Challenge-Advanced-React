@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function DisplayData(props) {
   //   const [userData, setUserData] = useState({});
